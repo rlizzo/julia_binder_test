@@ -12,7 +12,7 @@ open("myout.txt","w") do f
 end
 
 i = 0
-while i <= 60
+while i <= 20
         println(i)
         sleep(1)
         global i += 1
